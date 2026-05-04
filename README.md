@@ -39,10 +39,10 @@ The dashboard provides:
 ## 📸 Screenshots
 
 ### Azure Data Factory Pipeline
-![Pipeline](screenshots/adf-pipeline.png)
+![Pipeline](screenshots/Energy-Project-DataFlow.png)
 
 ### Power BI Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Energy-Project-PowerBi-Dashboard.png)
 
 ## 🚀 Future Improvements
 - Add Python script for CSV processing and automation  
