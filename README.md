@@ -43,6 +43,12 @@ The dashboard provides:
 ### Power BI Dashboard
 ![Dashboard](screenshots/Energy-Project-PowerBi-Dashboard.png)
 
+## What I Learned
+- How to build an end-to-end pipeline using Azure Data Factory
+- How to transform and aggregate data using Data Flows
+- How to handle type mismatches and schema issues
+- How to create a Power BI dashboard from processed data
+
 ## 🚀 Future Improvements
 - Add Python script for CSV processing and automation  
 - Automate pipeline triggers (scheduled runs)  
