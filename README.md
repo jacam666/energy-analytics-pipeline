@@ -1,5 +1,4 @@
-"# energy-analytics-pipeline" # Energy Analytics Pipeline (Azure Data Factory + Power BI)
-
+Energy Analytics Pipeline (Azure Data Factory + Power BI)
 
 A real-world data engineering project analysing energy transactions using Azure Data Factory and Power BI.
 
