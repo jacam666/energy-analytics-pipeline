@@ -1,10 +1,15 @@
+import subprocess
+
+# Run the processing script first
+subprocess.run(["python", "scripts/process_data.py"])
+
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient
 
 STORAGE_ACCOUNT_NAME = "jclabstorage26"
 CONTAINER_NAME = "raw-data"
-LOCAL_FILE_PATH = "data/energy_transactions_2024_2026.csv"
-BLOB_NAME = "energy_transactions.csv"
+LOCAL_FILE_PATH = "data/processed_energy.csv"
+BLOB_NAME = "processed_energy.csv"
 
 account_url = f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net"
 

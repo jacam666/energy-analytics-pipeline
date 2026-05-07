@@ -1,0 +1,122 @@
+transactionid,description,date,year,month,transactiontype,fueltype,amount,balanceaftertransaction,transaction_category
+1,We charged you for electricity,2026-04-10,2026,2026-04,Charge,Electricity,-48.91,-319.41,Charge
+2,We charged you for gas,2026-04-10,2026,2026-04,Charge,Gas,-37.52,-270.5,Charge
+3,You made a payment,2026-04-03,2026,2026-04,Payment,,330.0,-232.98,Payment
+4,We charged you for electricity,2026-03-31,2026,2026-03,Charge,Electricity,-118.18,-562.98,Charge
+5,We charged you for gas,2026-03-31,2026,2026-03,Charge,Gas,-115.98,-444.8,Charge
+6,We charged you for gas,2026-03-13,2026,2026-03,Charge,Gas,-157.49,-328.82,Charge
+7,We charged you for electricity,2026-03-10,2026,2026-03,Charge,Electricity,-177.26,-171.33,Charge
+8,You made a payment,2026-03-04,2026,2026-03,Payment,,400.0,5.93,Payment
+9,We charged you for electricity,2026-02-12,2026,2026-02,Charge,Electricity,-196.09,-394.07,Charge
+10,We charged you for gas,2026-02-10,2026,2026-02,Charge,Gas,-199.93,-197.98,Charge
+11,You made a payment,2026-01-22,2026,2026-01,Payment,,260.0,1.95,Payment
+12,You made a payment,2026-01-19,2026,2026-01,Payment,,150.0,-258.05,Payment
+13,We charged you for electricity,2026-01-10,2026,2026-01,Charge,Electricity,-69.46,-408.05,Charge
+14,We charged you for gas,2026-01-10,2026,2026-01,Charge,Gas,-86.56,-338.59,Charge
+15,We charged you for electricity,2025-12-31,2025,2025-12,Charge,Electricity,-127.02,-252.03,Charge
+16,We charged you for gas,2025-12-31,2025,2025-12,Charge,Gas,-126.58,-125.01,Charge
+17,You made a payment,2025-12-29,2025,2025-12,Payment,,150.0,1.57,Payment
+18,You made a payment,2025-12-28,2025,2025-12,Payment,,200.0,-148.43,Payment
+19,We charged you for gas,2025-12-12,2025,2025-12,Charge,Gas,-165.22,-348.43,Charge
+20,We charged you for electricity,2025-12-10,2025,2025-12,Charge,Electricity,-185.25,-183.21,Charge
+21,You made a payment,2025-11-20,2025,2025-11,Payment,,255.0,2.04,Payment
+22,We charged you for electricity,2025-11-10,2025,2025-11,Charge,Electricity,-180.89,-252.96,Charge
+23,We charged you for gas,2025-11-10,2025,2025-11,Charge,Gas,-117.62,-72.07,Charge
+24,You made a payment,2025-10-25,2025,2025-10,Payment,,40.0,45.55,Payment
+25,You made a payment,2025-10-20,2025,2025-10,Payment,,70.0,5.55,Payment
+26,You made a payment,2025-10-17,2025,2025-10,Payment,,90.0,-64.45,Payment
+27,You made a payment,2025-10-15,2025,2025-10,Payment,,100.0,-154.45,Payment
+28,We charged you for electricity,2025-10-10,2025,2025-10,Charge,Electricity,-57.11,-254.45,Charge
+29,We charged you for gas,2025-10-10,2025,2025-10,Charge,Gas,-29.91,-197.34,Charge
+30,We charged you for electricity,2025-09-30,2025,2025-09,Charge,Electricity,-115.45,-167.43,Charge
+31,We charged you for gas,2025-09-30,2025,2025-09,Charge,Gas,-52.41,-51.98,Charge
+32,You made a payment,2025-09-13,2025,2025-09,Payment,,160.0,0.43,Payment
+33,We charged you for electricity,2025-09-10,2025,2025-09,Charge,Electricity,-125.83,-159.57,Charge
+34,We charged you for gas,2025-09-10,2025,2025-09,Charge,Gas,-46.86,-33.74,Charge
+35,You made a payment,2025-08-18,2025,2025-08,Payment,,120.0,13.12,Payment
+36,We charged you for gas,2025-08-10,2025,2025-08,Charge,Gas,-41.51,-106.88,Charge
+37,We charged you for electricity,2025-08-10,2025,2025-08,Charge,Electricity,-134.11,-65.37,Charge
+38,You made a payment,2025-08-10,2025,2025-08,Payment,,40.0,68.74,Payment
+39,You made a payment,2025-07-16,2025,2025-07,Payment,,200.0,28.74,Payment
+40,We charged you for gas,2025-07-10,2025,2025-07,Charge,Gas,-15.32,-171.26,Charge
+41,We charged you for electricity,2025-07-10,2025,2025-07,Charge,Electricity,-41.42,-155.94,Charge
+42,We charged you for gas,2025-06-30,2025,2025-06,Charge,Gas,-32.81,-114.52,Charge
+43,We charged you for electricity,2025-06-30,2025,2025-06,Charge,Electricity,-83.88,-81.71,Charge
+44,You made a payment,2025-06-19,2025,2025-06,Payment,,200.0,2.17,Payment
+45,We charged you for electricity,2025-06-10,2025,2025-06,Charge,Electricity,-132.89,-197.83,Charge
+46,We charged you for gas,2025-06-10,2025,2025-06,Charge,Gas,-71.07,-64.94,Charge
+47,You made a payment,2025-05-20,2025,2025-05,Payment,,120.0,6.13,Payment
+48,You made a payment,2025-05-14,2025,2025-05,Payment,,120.0,-113.87,Payment
+49,We charged you for gas,2025-05-10,2025,2025-05,Charge,Gas,-115.48,-233.87,Charge
+50,We charged you for electricity,2025-05-10,2025,2025-05,Charge,Electricity,-124.69,-118.39,Charge
+51,You made a payment,2025-04-20,2025,2025-04,Payment,,160.0,6.3,Payment
+52,You made a payment,2025-04-13,2025,2025-04,Payment,,150.0,-153.7,Payment
+53,We charged you for electricity,2025-04-10,2025,2025-04,Charge,Electricity,-43.24,-303.7,Charge
+54,We charged you for gas,2025-04-10,2025,2025-04,Charge,Gas,-52.25,-260.46,Charge
+55,We charged you for electricity,2025-03-31,2025,2025-03,Charge,Electricity,-92.33,-208.21,Charge
+56,We charged you for gas,2025-03-31,2025,2025-03,Charge,Gas,-118.0,-115.88,Charge
+57,You made a payment,2025-03-20,2025,2025-03,Payment,,310.0,2.12,Payment
+58,We charged you for gas,2025-03-10,2025,2025-03,Charge,Gas,-179.86,-307.88,Charge
+59,We charged you for electricity,2025-03-10,2025,2025-03,Charge,Electricity,-131.97,-128.02,Charge
+60,You made a payment,2025-02-17,2025,2025-02,Payment,,80.0,3.95,Payment
+61,You made a payment,2025-02-15,2025,2025-02,Payment,,100.0,-76.05,Payment
+62,We charged you for gas,2025-02-10,2025,2025-02,Charge,Gas,-243.88,-176.05,Charge
+63,We charged you for electricity,2025-02-10,2025,2025-02,Charge,Electricity,-149.24,67.83,Charge
+64,You made a payment,2025-02-09,2025,2025-02,Payment,,100.0,217.07,Payment
+65,You made a payment,2025-02-03,2025,2025-02,Payment,,100.0,117.07,Payment
+66,You made a payment,2025-01-17,2025,2025-01,Payment,,370.0,17.07,Payment
+67,We charged you for gas,2025-01-10,2025,2025-01,Charge,Gas,-70.27,-352.93,Charge
+68,We charged you for electricity,2025-01-10,2025,2025-01,Charge,Electricity,-55.3,-282.66,Charge
+69,We charged you for gas,2024-12-31,2024,2024-12,Charge,Gas,-123.86,-227.36,Charge
+70,We charged you for electricity,2024-12-31,2024,2024-12,Charge,Electricity,-113.21,-103.5,Charge
+71,You made a payment,2024-12-20,2024,2024-12,Payment,,40.0,9.71,Payment
+72,We charged you for gas,2024-12-10,2024,2024-12,Charge,Gas,-182.88,-30.29,Charge
+73,We charged you for electricity,2024-12-10,2024,2024-12,Charge,Electricity,-157.14,152.59,Charge
+74,You made a payment,2024-12-09,2024,2024-12,Payment,,100.0,309.73,Payment
+75,You made a payment,2024-12-02,2024,2024-12,Payment,,200.0,209.73,Payment
+76,You made a payment,2024-11-14,2024,2024-11,Payment,,130.0,9.73,Payment
+77,We charged you for gas,2024-11-10,2024,2024-11,Charge,Gas,-118.23,-120.27,Charge
+78,We charged you for electricity,2024-11-10,2024,2024-11,Charge,Electricity,-152.86,-2.04,Charge
+79,You made a payment,2024-11-07,2024,2024-11,Payment,,50.0,150.82,Payment
+80,You made a payment,2024-10-29,2024,2024-10,Payment,,50.0,100.82,Payment
+81,You made a payment,2024-10-25,2024,2024-10,Payment,,50.0,50.82,Payment
+82,You made a payment,2024-10-16,2024,2024-10,Payment,,200.0,0.82,Payment
+83,We charged you for gas,2024-10-10,2024,2024-10,Charge,Gas,-33.09,-199.18,Charge
+84,We charged you for electricity,2024-10-10,2024,2024-10,Charge,Electricity,-39.57,-166.09,Charge
+85,We charged you for gas,2024-09-30,2024,2024-09,Charge,Gas,-54.34,-126.52,Charge
+86,We charged you for electricity,2024-09-30,2024,2024-09,Charge,Electricity,-81.26,-72.18,Charge
+87,You made a payment,2024-09-16,2024,2024-09,Payment,,150.0,9.08,Payment
+88,We charged you for gas,2024-09-10,2024,2024-09,Charge,Gas,-44.5,-140.92,Charge
+89,We charged you for electricity,2024-09-10,2024,2024-09,Charge,Electricity,-102.8,-96.42,Charge
+90,You made a payment,2024-08-17,2024,2024-08,Payment,,150.0,6.38,Payment
+91,We charged you for gas,2024-08-10,2024,2024-08,Charge,Gas,-43.49,-143.62,Charge
+92,We charged you for electricity,2024-08-10,2024,2024-08,Charge,Electricity,-100.58,-100.13,Charge
+93,You made a payment,2024-07-17,2024,2024-07,Payment,,160.0,0.45,Payment
+94,We charged you for electricity,2024-07-12,2024,2024-07,Charge,Electricity,-33.75,-159.55,Charge
+95,We charged you for electricity,2024-07-12,2024,2024-07,Charge,Electricity,-72.89,-125.8,Charge
+96,We charged you for gas,2024-07-10,2024,2024-07,Charge,Gas,-18.03,-52.91,Charge
+97,We charged you for gas,2024-06-30,2024,2024-06,Charge,Gas,-35.94,-34.88,Charge
+98,You made a payment,2024-06-19,2024,2024-06,Payment,,170.0,1.06,Payment
+99,We charged you for electricity,2024-06-10,2024,2024-06,Charge,Electricity,-113.27,-168.94,Charge
+100,We charged you for gas,2024-06-10,2024,2024-06,Charge,Gas,-56.07,-55.67,Charge
+101,You made a payment,2024-05-19,2024,2024-05,Payment,,120.0,0.4,Payment
+102,We charged you for gas,2024-05-10,2024,2024-05,Charge,Gas,-113.13,-119.6,Charge
+103,We charged you for electricity,2024-05-10,2024,2024-05,Charge,Electricity,-115.5,-6.47,Charge
+104,Balance transfer,2024-05-08,2024,2024-05,Balance Transfer,,101.36,109.03,Payment
+105,You made a payment,2024-04-19,2024,2024-04,Payment,,140.0,7.67,Payment
+106,You made a payment,2024-04-18,2024,2024-04,Payment,,150.0,-132.33,Payment
+107,We charged you for gas,2024-04-10,2024,2024-04,Charge,Gas,-30.1,-282.33,Charge
+108,We charged you for electricity,2024-04-10,2024,2024-04,Charge,Electricity,-44.07,-252.23,Charge
+109,We charged you for gas,2024-03-31,2024,2024-03,Charge,Gas,-100.76,-208.16,Charge
+110,We charged you for electricity,2024-03-31,2024,2024-03,Charge,Electricity,-112.11,-107.4,Charge
+111,You made a payment,2024-03-29,2024,2024-03,Payment,,60.0,4.71,Payment
+112,You made a payment,2024-03-22,2024,2024-03,Payment,,60.0,-55.29,Payment
+113,You made a payment,2024-03-17,2024,2024-03,Payment,,50.0,-115.29,Payment
+114,We charged you for gas,2024-03-10,2024,2024-03,Charge,Gas,-98.87,-165.29,Charge
+115,We charged you for electricity,2024-03-10,2024,2024-03,Charge,Electricity,-53.11,-66.42,Charge
+116,You made a card payment,2024-02-27,2024,2024-02,Payment,,65.79,-13.31,Payment
+117,Gas,2024-02-26,2024,2024-02,Adjustment,Gas,0.68,-79.1,Payment
+118,We charged you for electricity,2024-02-25,2024,2024-02,Charge,Electricity,-13.31,-79.78,Charge
+119,We charged you for gas,2024-02-25,2024,2024-02,Charge,Gas,-64.89,-66.47,Charge
+120,We charged you for electricity,2024-02-14,2024,2024-02,Charge,Electricity,-0.9,-1.58,Charge
+121,We reversed a previous charge,2024-02-14,2024,2024-02,Reversal,,-0.68,-0.68,Charge
