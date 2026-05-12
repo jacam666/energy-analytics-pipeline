@@ -96,7 +96,7 @@ The dashboard connects to Azure Synapse Serverless using the `vw_monthly_summary
 ![Pipeline](screenshots/Energy-Project-DataFlow.png)
 
 ### 🧠 Synapse Query Layer
-![Dashboard](screenshots/Dashboard-1.png)
+![Dashboard](screenshots/dashboard-1.png)
 
 ### Power BI Dashboard
 ![Dashboard](screenshots/Energy-Project-PowerBi-Dashboard.png)
