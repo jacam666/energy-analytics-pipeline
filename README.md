@@ -64,12 +64,6 @@ This approach separates raw data from reporting logic, following best practices 
 4. Load processed data into Power BI
 5. Build dashboard using transformed dataset
 
-## 📊 Power BI Energy-Project-PowerBi-Dashboard
-The dashboard provides:
-- Monthly trend of energy spending vs payments  
-- Total charges and total payments  
-- Net balance (overall position)
-
 - ## 📊 Power BI Dashboard-1 (Synapse)
 The dashboard connects to Azure Synapse Serverless using the `vw_monthly_summary` view and includes:
 
@@ -97,9 +91,6 @@ The dashboard connects to Azure Synapse Serverless using the `vw_monthly_summary
 
 ### 🧠 Synapse Query Layer
 ![Dashboard](screenshots/dashboard-1.png)
-
-### Power BI Dashboard
-![Dashboard](screenshots/Energy-Project-PowerBi-Dashboard.png)
 
 ## 📚 What I Learned
 - Designing and building an end-to-end ETL pipeline in Azure
