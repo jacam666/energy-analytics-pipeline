@@ -1,18 +1,27 @@
-Energy Analytics Pipeline (Azure Data Factory + Python + Power BI)
+# 📊 Energy Analytics Pipeline (Azure Data Factory + Synapse + Power BI)
 
-A real-world data engineering project analysing energy transactions using Azure Data Factory and Power BI.
+A real-world data engineering project analysing energy transactions using a modern Azure data stack.
+
+
+## 🏗️ Architecture
+
+Python → Azure Blob Storage → Azure Data Factory → Synapse Serverless → Power BI
 
 ## 📌 Overview
-This project demonstrates an end-to-end data pipeline built using Azure Data Factory and Power BI to analyse energy transaction data.
+This project demonstrates an end-to-end data pipeline that ingests, transforms, and analyses energy transaction data.
 
 ## 🎯 Project Goal
-The goal of this project is to simulate a real-world energy billing scenario,
-tracking charges and payments to understand spending trends and overall balance.
+The goal of this project is to simulate a real-world energy billing scenario by:
+- Tracking charges and payments  
+- Analysing monthly spending trends  
+- Calculating net balance over time  
 
 ## 🛠️ Technologies Used
 - Azure Data Factory
-- Azure Blob Storage
-- Python
+- Azure Blob Storage (Data Lake)
+- Azure Synapse Analytics (Serverless SQL)
+- SQL (OPENROWSET, Views, Aggregations)
+- Python (pandas, Azure SDK)
 - Power BI
 - Git & GitHub
 
@@ -21,17 +30,32 @@ A Python script is used to securely upload raw CSV data to Azure Blob Storage us
 
 ## 🔄 Data Pipeline
 1. Raw CSV data prepared locally
-2. Python script uploads data to Azure Blob Storage (raw/data lake layer)
-3. Azure Data Factory ingests data from Blob Storage
-4. Data cleaned and transformed using Data Flow
-5. Transactions classified into:
-   - Energy Type (Gas / Electricity / Other)
-   - Transaction Category (Charge / Payment)
-6. Aggregation performed to calculate:
-   - Monthly total charges
-   - Monthly total payments
-7. Transformed data stored in a processed (curated) data layer
-8. Power BI connects to the processed data for reporting
+2. Python script uploads data to Azure Blob Storage (data lake)
+3. Azure Data Factory ingests and transforms data
+4. Cleaned data stored in a processed (curated) layer
+5. Azure Synapse Serverless used to query data directly from the data lake using OPENROWSET
+6. Schema defined using SQL WITH clause
+7. Created reusable views:
+   - `vw_energy_data` (cleaned dataset)
+   - `vw_monthly_summary` (aggregated reporting layer)
+8. Power BI connects to Synapse for reporting and visualisation
+
+## 🧠 Data Modelling (Synapse)
+
+Two SQL views were created to structure the data:
+
+### `vw_energy_data`
+- Represents cleaned transaction-level data
+- Defines schema over raw CSV using OPENROWSET
+
+### `vw_monthly_summary`
+- Aggregated monthly dataset
+- Includes:
+  - total_charges
+  - total_payments
+  - net_balance
+
+This approach separates raw data from reporting logic, following best practices used in modern data engineering pipelines.
 
 ## ▶️ How to Run This Project
 1. Prepare CSV data locally
@@ -40,11 +64,25 @@ A Python script is used to securely upload raw CSV data to Azure Blob Storage us
 4. Load processed data into Power BI
 5. Build dashboard using transformed dataset
 
-## 📊 Power BI Dashboard
+## 📊 Power BI Energy-Project-PowerBi-Dashboard
 The dashboard provides:
 - Monthly trend of energy spending vs payments  
 - Total charges and total payments  
-- Net balance (overall position)  
+- Net balance (overall position)
+
+- ## 📊 Power BI Dashboard-1 (Synapse)
+The dashboard connects to Azure Synapse Serverless using the `vw_monthly_summary` view and includes:
+
+- KPI Cards:
+  - Total Charges  
+  - Total Payments  
+  - Net Balance  
+
+- Line Chart:
+  - Monthly Net Balance Trend  
+
+- Bar Chart:
+  - Charges vs Payments by Month  
 
 ## 🔑 Key Features
 - End-to-end ETL pipeline  
@@ -56,6 +94,9 @@ The dashboard provides:
 
 ### Azure Data Factory Pipeline
 ![Pipeline](screenshots/Energy-Project-DataFlow.png)
+
+### 🧠 Synapse Query Layer
+![Dashboard](screenshots/Dashboard-1.png)
 
 ### Power BI Dashboard
 ![Dashboard](screenshots/Energy-Project-PowerBi-Dashboard.png)
